@@ -1,0 +1,51 @@
+@import url(https://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+
+.fundo-principal{
+    background-color: rgb(224,8,21) !important;
+}
+
+.fundo-secundario{
+    background-color: #fcba0c !important;
+}
+
+.cor-principal{
+    color: rgb(224,8,21) !important;
+}
+
+.cor-secundaria{
+    color: #fcba0c !important;
+}
+
+
+
+.preto-claro {
+    background: #151515;
+}
+
+.texto-verde-claro {
+    color:#64ffda;
+}
+
+.link-sem-traco {
+    text-decoration: none !important;
+}
+
+.link:hover {
+    color:#64ffda;
+}
+
+@media (min-width:768px) {
+    .links-sociais-desktop {
+        margin-top: 110px !important;
+    }
+}
+@media (min-width:640px) {
+    .links-sociais-desktop {
+        margin-top: 30px !important;
+    }
+}

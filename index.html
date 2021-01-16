@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body class="">
+<div class="text-white w-screen">
+    <header class="h-full w-full">
+        <nav class="flex flex-row items-center fundo-secundario sm:justify-around no-underline h-full w-full">
+            <div class="lg:w-1/12 hidden lg:visible w-full lg:h-8"></div>
+            <div class="lg:w-1/12 lg:visible items-center flex-shrink-0 text-white">
+                <span class=" font-semibold tracking-tight text-2xl">
+                    <span class="text-4xl font-hairline text-indigo-900 m-0 p-0 cor-secundaria">S</span>
+                    <span class="m-0 p-0 font-extrabold text-indigo-900 cor-secundaria">B</span>
+                </span>
+            </div>
+            <div class="lg:w-10/12 w-full">
+                <div class="sm:text-center w-full flex flex-row justify-around lg:items-center lg:w-auto">
+                    <div class="w-full sm:text-3xl lg:text-xl no-underline flex flex-row sm:justify-around lg:justify-end mr-2">
+                        <a href="#home"
+                           class=" no-underline block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 link-sem-traco">
+                            <span class="texto-verde-claro no-underline mx-1">01.</span><span
+                                class="link">Home</span>
+                        </a>
+                        <a href="#about"
+                           class=" block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 link-sem-traco">
+                            <span class="texto-verde-claro no-underline mx-1">02.</span><span
+                                class="link">Sobre</span>
+                        </a>
+                        <a href="#portfolio"
+                           class=" block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 link-sem-traco">
+                            <span class="texto-verde-claro no-underline mx-1">03.</span><span
+                                class="link">Portfolio</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="lg:w-1/12 sm:invisible lg:visible h-full"></div>
+        </nav>
+    </header>
+    <main id="" class="flex-1 overflow-y-auto preto-claro pb-12">
+        <section id="home" class="h-screen">
+            <div class="flex flex-row flex-wrap ">
+                <div class="lg:hidden sm:w-full flex flex-row justify-center ">
+                    <figure class="lg:hidden lg:mx-3 lg:order-last sm:w-11/12 lg:w-5/12 lg:my-8">
+                        <img src="maison_foto.png" width="95%" alt="Minha foto">
+                    </figure>
+                </div>
+                <div class="lg:w-1/12 sm:w-full lg:justify-around sm:flex sm:flex-row sm:flex-wrap ">
+                    <ul class="lg:w-1/12 inline-flex justify-around sm:w-full lg:flex lg:flex-row lg:flex-wrap links-sociais-desktop mt-6 sm:mx-0 lg:fixed lg:ml-40 sm:w-11/12 animate-pulse">
+                        <li class="my-6 lg:flex lg:flex-row lg:flex-wrap lg:justify-around w-full transition duration-100 ease-in-out transform hover:text-purple-800">
+                            <a class="lg:w-full flex flex-row flex-wrap justify-around"
+                               href="https://starkbabies.sualojaonline.app" target="_blank">
+                                <span class="rounded border mif-shop lg:text-3xl sm:text-6xl"></span>
+                            </a>
+                        </li>
+
+                        <li class="my-6 w-full transition duration-500 ease-in-out transform hover:text-purple-800">
+                            <a class="lg:w-full flex flex-row flex-wrap justify-around"
+                               href="https://www.instagram.com/starkbabies/" target="_blank">
+                                <span class="rounded border border mif-instagram lg:text-3xl sm:text-6xl"></span>
+                            </a>
+                        </li>
+                        <li class="my-6 w-full transition duration-500 ease-in-out transform hover:text-purple-800">
+                            <a class="lg:w-full flex flex-row flex-wrap justify-around"
+                               href="https://www.facebook.com/starkbabies" target="_blank">
+                                <span class="rounded border mif-facebook lg:text-3xl sm:text-6xl"></span>
+                            </a>
+                        </li>
+                        <li class="my-6 w-full transition duration-500 ease-in-out transform hover:text-purple-800">
+                            <a class="lg:w-full flex flex-row flex-wrap justify-around"
+                               href="https://api.whatsapp.com/send?phone=5592999986769" target="_blank">
+                                <span class="rounded border lg:text-3xl sm:text-6xl">
+                                    <svg style="width:40px;height:40px" viewBox="0 0 24 24">
+    <path fill="currentColor"
+          d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z"/>
+</svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="my-6 w-full transition duration-500 ease-in-out transform hover:text-purple-800">
+                            <a class="lg:w-full flex flex-row flex-wrap justify-around"
+                               href="mailto:starkbabies@outlook.com" target="_blank">
+                                <span class="rounded border mif-mail lg:text-3xl sm:text-6xl"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:w-1/12">
+                </div>
+                <div class="lg:w-8/12 ">
+                    <div class="w-full">
+                        <h1 class="w-full sm:text-center lg:text-left sm:text-5xl font-bold sm:leading-relaxed sm:text-gray-100 lg:my-4 sm:my-2 lg:font-medium">
+                            <span class="antialiased lg:text-4xl sm:text-4xl block font-hairline sm:mt-6 lg:mt-20">Olá, seja bem vindo, somos a </span>
+                        </h1>
+                        <h2 class="text-center antialiased w-full lg:text-6xl sm:text-5xl font-bold sm:font-semibold text-right">
+                            <span class="cor-principal">Stark</span><span class="cor-secundaria">Babies</span> </h2>
+                    </div>
+                    <div class="w-full sm:my-6 ml-0 mr-2 pr-2">
+                        <p class="sm:text-4xl sm:mx-4 lg:text-2xl sm:mt10 mt-12 sm:leading-relaxed sm:font-hairline text-justify text-gray-200 lg:leading-normal lg:font-light lg:text-xl">
+                            Sua loja de roupas infantis em Manaus <a
+                                class="text-blue-600" href="http://starkbabies.sualojaonline.app/" target="_blank">Stark
+                            Babies</a>.
+                            Trabalhamos com moda infantil de 0 a 4 anos Entre em contato para fazer seu pedido,
+                            entragamos em Manaus, siga-nos nas redes sociais. </p>
+                    </div>
+
+
+                </div>
+                <div class="lg:w-1/12">
+
+                </div>
+                <div class="sm:invisible lg:visible lg:w-1/12 ">
+                    <div class="lg:fixed justify-end align-bottom">
+                        <ul class="lg:w-1/12 inline-flex justify-around sm:w-full lg:flex lg:flex-row lg:flex-wrap links-sociais-desktop lg:fixed lg:ml-40 sm:w-11/12 sm:mt-6">
+                            <li class="my-6 lg:flex lg:flex-row lg:flex-wrap lg:justify-around w-full transition duration-100 ease-in-out transform hover:text-purple-800">
+                                <a class="w-full flex flex-row flex-wrap justify-around h-full"
+                                   href="https://starkbabies.sualojaonline.app" target="_blank">
+                                    <span class="rounded border mif-shop lg:text-3xl sm:text-6xl"></span>
+                                </a>
+                            </li>
+
+                            <li class="my-6 lg:flex lg:flex-row lg:flex-wrap lg:justify-around w-full transition duration-100 ease-in-out transform hover:text-purple-800">
+                                <a class="w-full flex flex-row flex-wrap justify-around"
+                                   href="https://www.instagram.com/starkbabies/" target="_blank">
+                                    <span class="rounded border border mif-instagram lg:text-3xl sm:text-6xl"></span>
+                                </a>
+                            </li>
+                            <li class="my-6 lg:flex lg:flex-row lg:flex-wrap lg:justify-around w-full transition duration-100 ease-in-out transform hover:text-purple-800">
+                                <a class="w-full flex flex-row flex-wrap justify-around"
+                                   href="https://www.facebook.com/starkbabies" target="_blank">
+                                    <span class="rounded border mif-facebook lg:text-3xl sm:text-6xl"></span>
+                                </a>
+                            </li>
+                            <li class="my-6 lg:flex lg:flex-row lg:flex-wrap lg:justify-around w-full transition duration-100 ease-in-out transform hover:text-purple-800">
+                                <a class="w-full flex flex-row flex-wrap justify-around" style="height: 48px"
+                                   href="https://api.whatsapp.com/send?phone=5592999986769" target="_blank">
+                                    <span class="rounded border mif-whatsapp lg:text-3xl sm:text-6xl" width="48px"
+                                          height="48px">
+                                        <svg style="width:40px;height:40px" viewBox="0 0 24 24">
+    <path fill="currentColor"
+          d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z"/>
+</svg>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="my-6 lg:flex lg:flex-row lg:flex-wrap lg:justify-around w-full transition duration-100 ease-in-out transform hover:text-purple-800">
+                                <a class="w-full flex flex-row flex-wrap justify-around"
+                                   href="mailto:starkbabies@outlook.com" target="_blank">
+                                    <span class="rounded border mif-mail lg:text-3xl sm:text-6xl"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="h-full w-full">
+            <div class="flex flex-row sm:flex-wrap justify-around w-full sm:w-full h-full">
+                <div class="w-full mb-12 mt-6">
+                    <span><h2 class="text-center lg:text-4xl sm:text-3xl lg:font-normal my-0"><span
+                            class="texto-verde-claro lg:text-3xl lg:font-light no-underline mx-1">02.</span>Sobre</h2></span>
+                </div>
+                <div class="lg:w-1/12">
+                </div>
+                <div class="w-full lg:w-4/12 lg:h-full">
+                    <figure class="w-full h-full">
+                        <img src="logo_sem_fundo_starkbabies.png" width="95%" height="95%" alt="Minha foto">
+                    </figure>
+                </div>
+                <div class="sm:w-full lg:w-6/12 lg:h-full ">
+                    <div class="sm:px-4 mt-2 w-full">
+                        <h3 class="w-full sm:px-4 text-gray-200 sm:text-4xl lg:text-lg text-justify font-thin leading-relaxed">
+                            Olá! Somos a Stark Babies, somos uma loja de roupas infantis em Manaus/AM.
+
+                            Nascemos no dia 05 de Dezembro, somos uma família empreendedora, estamos presentes nas
+                            principais
+                            mídias sociais, se você nos segue em qualquer uma delas já está apoiando nossso trabalho,
+                            nosso
+                            loja começou com uma idéia pequena, apenas desapego de roupas do nosso filho em Dezembro
+                            porém
+                            logo enxergamos uma oportunidade e desde então estamos investindo todo nosso esforço nesse
+                            negócio.
+                            Vendemos roupas multimarcas, e nosso objetivo e missão é ser reconhecido com uma excelente
+                            opção em
+                            compras de roupas infantis em Manaus.
+                            Para fazer seu pedido ou consultar nossos produtos basta acessar nossos canais.
+                            Temos:
+                        </h3>
+
+                        <ul class="my-2 sm:text-3xl lg:text-lg">
+                            <li>
+                                <span class="mx-2 text-2xl text-green-800">▹</span>Bodys
+                            </li>
+                            <li>
+                                <span class="mx-2 text-2xl text-green-800">▹</span> Jardineiras
+                            </li>
+                            <li>
+                                <span class="mx-2 text-2xl text-green-800">▹</span>Rompers
+                            </li>
+                            <li>
+                                <span class="mx-2 text-2xl text-green-800">▹</span>Calçados
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="sm:invisible lg:visible lg:w-1/12  h-full">
+                </div>
+            </div>
+        </section>
+        <section class="h-full" id="portfolio">
+            <div class="flex flex-row sm:flex-wrap justify-around w-full sm:w-full h-full">
+                <div class=" w-full lg:flex lg:flex-row lg:justify-around">
+                    <div class="lg:w-1/12">
+
+                    </div>
+                    <div class="lg:w-6/12  sm:w-full">
+                        <figure class="h-full ">
+                            <img src="starkbabies.png" alt="Minha foto">
+                        </figure>
+                    </div>
+                    <div class="lg:w-1/12">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="h-full">
+        <nav class="flex flex-row justify-around items-center flex-wrap bg-black no-underline">
+            <div class="">
+                <div class="flex flex-row items-center flex-shrink-0 text-white mr-6">
+                    <span class="font-semibold tracking-tight text-2xl text-center">
+                        <span class="text-4xl font-hairline cor-principal m-0 p-0">S</span>
+                        <span class="ml-0">tark</span>
+                        <span class="text-4xl m-0 p-0 font-bold cor-principal">B</span>
+                        <span class="">abies</span>
+                    </span>
+                </div>
+            </div>
+
+
+        </nav>
+    </footer>
+</div>
+
+</body>
+</html>
